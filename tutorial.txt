@@ -1,0 +1,30 @@
+How To Create A Portfolio Hosted on Github Pages For Free
+
+[Stack:
+    ReactJS,
+    GatsbyJS,
+    Prismic,
+    GraphQL,
+    HTML,
+    CSS]
+
+[Steps:
+    1. Set up workspace.
+    2. Install node.js
+    3. Use terminal to install gatsby-cli, using npm:
+        #npm i -g gatsby-cli
+    4. Use gatsby-cli to create new gatsby-site:
+        #gatsby new gatsby-site
+    5. Create prismic repo at prismic.io
+    6. Install Prismic and helpers using npm:
+        #npm i gatsby-source-prismic-graphql prismic-reactjs
+    7. Create Github repo and name it "<github_username>.github.io"
+    8. Intialize git:
+        #git init 
+    9. Add and commit initialization to git:
+        #git add .
+        #git commit -m "project initialization"
+    10. add remote origin to git:
+        #git remote add origin https://github.com/<github_username>/<github_username>.github.io.git
+    11. push branch to origin master
+        #git push origin master]
