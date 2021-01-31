@@ -27,4 +27,10 @@ How To Create A Portfolio Hosted on Github Pages For Free
     10. add remote origin to git:
         #git remote add origin https://github.com/<github_username>/<github_username>.github.io.git
     11. push branch to origin master
-        #git push origin master]
+        #git push origin master
+    12. install github pages using npm:
+        #npm install gh-pages --save-dev
+    13. create gatsby production build:
+        #gatsby build
+    14. push production build folder to your master:
+        #gh-pages -d public -b master ]
