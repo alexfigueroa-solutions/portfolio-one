@@ -1,0 +1,22 @@
+import os 
+
+
+gatsby_folder_name = 'gatsby-starter-default'
+
+#____________________________________________________________________________
+def bypass_digital_signature():
+    os.system('Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass')
+    print("AU70MA7A: Digital signature successfully bypassed.")
+
+def start_gatsby_server(gatsby_folder_name):
+    os.system('cd ' + gatsby_folder_name)
+
+    os.system('gatsby develop')
+
+#______________________________________________________________________________ 
+def main():
+    
+    start_gatsby_server(gatsby_folder_name)
+
+    
+main()

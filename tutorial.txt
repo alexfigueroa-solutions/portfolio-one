@@ -34,3 +34,14 @@ How To Create A Portfolio Hosted on Github Pages For Free
         #gatsby build
     14. push production build folder to your master:
         #gh-pages -d public -b master ]
+
+    -------------------------
+    Setting Up React Components in Gatsby with GraphQL
+    --------------------------------------------------
+    1. Create directory structure for react components as such:
+        components/{component_folder}/{component_files}
+
+        a. component_files consists of:
+            i. javascript file,
+            ii. scss file,
+            iii. txt file

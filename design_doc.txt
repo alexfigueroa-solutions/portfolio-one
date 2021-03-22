@@ -1,0 +1,193 @@
+[Professional Portfolio]
+
+[url: cybrvybe.github.io]
+
+[SECTIONS:
+    1. Landing Profile,
+    2. Projects,
+    3. Skills and Technologies,
+    4. Contact
+]
+
+[LANDING PROFILE DATA:
+    1. First Name,
+    2. Last Name, 
+    3. Passions
+        #Ex: Technology, Mathematics, and Music
+    4. Job Title
+        #Ex: I'm a full-stack web developer,
+    5. Specializations,
+        #Ex: Automation, Data Science, Business Management Systems
+    6. Years of Development Experience: 4+ years. 
+]
+
+[PROJECTS:
+    1. DJANGAU70
+        a. Stack: 
+            - Python
+            - Django
+            - Git
+            - Github
+        b. Description:
+            - Automation Tools for Django
+            - Features:
+                - Django Project Template
+                - Django Workflow Automation
+                - DevOps Automation
+                - CLI
+    2. Faxxx Platform
+        a. Description:
+            - The Factorbeats platform is an e-commerce site still in development. 
+            - It is being developed for a client who is a respected music producer in the music industry.
+            - Client has previously sold and leased instrumentals that have been heard by millions in popular songs. 
+            - Features:
+                - E-Commerce Checkout
+                - Payment Processing Handling
+                - Administrative Data Analytics Dashboard
+                - Custom Content Management System
+                - Digital Asset E-Commerce Store
+                - Audio Playback
+                - Video Playback
+        a. Stack:
+            - Django
+            - Python
+            - Javascript
+            - AJAX
+            - ReactJS
+            - Bootstrap
+            - HTML5
+            - SCSS
+            - JQuery
+            - Postgres
+            - D3.js
+            - Stripe Payment Portal
+            - Git
+            - Github
+            - Heroku
+            - Docker
+            - Selenium
+
+        b. Demonstrated Capabilities:
+            - Handled a full software development lifecycle using web technologies.
+            - Designed, architected, and developed a technical solution to a client's needs.
+            - Handled e-commerce payment processing using the Stripe Payment Portal. 
+            - Employed version control using Git and Github.
+            - Automated UI/UX testing using Selenium. 
+            - Automated database population testing using Python.
+            - Automated development operations using Python. 
+            - Designed and developed a clean front-end UI, using ReactJS, Javascript and other front-end technologies.
+            - Created a content management system (CMS) using custom CRUD operations developed in Python.
+            - Created and implemented a database using Postgres and Django's ORM (Object Relational Mapper).
+            - Implemented styling using SCSS. 
+            - Deployed to Heroku server in a Docker container.
+        
+
+
+    3. Neo VSCode Theme
+        a. Stack:
+            - JSON
+    4. Portfolio
+        a. Stack:
+            - GatsbyJS
+            - ReactJS
+            - Bootstrap
+            - Prismic
+            - HTML5
+            - SCSS
+            - Javascript
+            - Git
+            - Github
+
+]
+
+[TECHNOLOGIES:
+    1. Databases:
+        a. SQLlite, 
+        b. Postgres,
+        c. Neo4j
+    2. Front-End: 
+        a. ReactJS,
+        b. Javascript,
+        c. GatsbyJS, 
+        d. Prismic,
+        e. HTML5,
+        f. CSS3,
+        g. SCSS,
+        h. Bootstrap,
+        i. JQuery,
+        j. AJAX,
+    3. Back-End:
+        a. Django,
+        b. Python,
+        c. Java,
+        d. Javascript
+    4. Data Science: 
+        a. Pandas,
+        b. Numpy,
+        c. Scipy,
+        d. Matplotlib,
+        e. R,
+        f. R Shiny
+        g. D3.js
+    5. Automation: 
+        a. Selenium,
+        b. BeautifulSoup4 (bs4),
+        c. Arduino
+    6. DevOps:
+        a. Git,
+        b. Github, 
+        c. Docker, 
+        d. Heroku
+        e. Powershell Terminal
+        f. Bash Terminal 
+]
+
+[SKILLS:
+    1. Technical:
+        - Vector Calculus
+        - Linear Algebra
+        - Graphs and Network Theory
+        - Data Cleaning
+        - Web Crawling
+        - Data Collection
+        - Statistical Analysis
+        - Statistical Testing
+        - Feature Engineering
+        - Robotics
+        - Physics
+        - Mathematical Modeling
+        - Software Architecture
+        
+    2. Creative:
+        - Analytical Writing
+        - Musical Instruments: Guitar, Piano, Trombone
+        - Music Production
+        - Audio Engineering
+        - Content Creation
+
+    3. Soft:
+        - Very fast-learner.
+        - Intrinsically motivated to learn and create. 
+        - Data-driven.
+        - Open-minded to new opportunities and possibilities.
+        - High attention to detail.  
+
+    4. Business:
+        - Independent Contracting
+        - Client Acquisition
+        - Niche Networking
+        - Project Management
+
+    
+    
+]
+
+[CONTACT:
+    1.  Email: alexfigueroa.cybr@gmail.com
+    2. LinkedIn: 
+]
+
+
+[REACT COMPONENTS:
+    
+]
