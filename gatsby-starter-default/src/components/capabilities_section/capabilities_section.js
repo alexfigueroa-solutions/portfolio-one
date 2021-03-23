@@ -1,3 +1,5 @@
+import React from 'react';
+import TabLayout from "../tab_layout/tab_layout.js"
 
 const CapabilityHeadersArray = [
     'Back-End',
@@ -32,3 +34,19 @@ const CapabilitiesArray = [
     }
 
 ]
+
+class CapabilitySection extends React.Component{
+    render(){
+        return <div class = "container">
+            <h1 class = "container-section">
+                Capabilities
+            </h1>
+            <TabLayout>
+
+            </TabLayout>
+
+        </div>
+    }
+}
+
+export default CapabilitySection
