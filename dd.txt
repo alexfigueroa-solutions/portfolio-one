@@ -1,0 +1,13 @@
+[3/23/2021 - Tuesday:
+    1. Create separate html element for each project stack entry using map.
+    2. Create separate html element for each project feature entry using map.
+    3. Create separate html element for eacg project capability
+    4. Create separate element for profile section.
+    5. Add ProfileSection component to index.js.
+    6. Create separate element, CapabilitiesSection.
+    7. Add CapabilitiesSection to index.js.
+    8. Create separate React component, TechSkillsSection.
+    9. Create navigation with html. 
+    10.  
+
+]
