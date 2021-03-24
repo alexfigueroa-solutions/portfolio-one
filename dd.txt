@@ -1,7 +1,8 @@
 [3/23/2021 - Tuesday:
+Weekly Goals: 
     1. Create separate html element for each project stack entry using map.
     2. Create separate html element for each project feature entry using map.
-    3. Create separate html element for eacg project capability
+    3. Create separate html element for each project capability
     4. Create separate element for profile section.
     5. Add ProfileSection component to index.js.
     6. + Create separate element, CapabilitiesSection.
@@ -14,4 +15,24 @@
     9. Create navigation with html. 
     10.  
 
+]
+
+[3/24/2021 = Wednesday:
+
+    Daily Tasks
+    1. + Wake Up 
+        Today I woke up energized after sleeping for like 10 hours. I folded my sheets and got dressed immediately.
+    2. + Practice Driving
+        Today, I practiced driving down near Bear  Valley Rd and Amethyst Rd. I just need to get more confirtable with the 'jerking'. 
+    3. + Play Brawlhalla
+    4. + Eat Breakfast
+    5. + Laundry
+    6. 
+    6. Smoke Sesh
+    6. Programming Sesh
+    7. Eat Lunch 
+    8. Smoke Sesh
+
+
+    
 ]
