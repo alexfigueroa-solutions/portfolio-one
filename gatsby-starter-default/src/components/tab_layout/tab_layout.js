@@ -19,11 +19,16 @@ class TabLayout extends React.Component{
             </div>
             <div class = 'content-container'>
                 {content_array.map(
-                    content => (
-                        <div class = "subcontainer">
-                            <h1>{content.title}</h1>
-                            <h2>{content.description}</h2>
-                        </div>
+                    array => (
+                        array.map(
+                            content =>(
+                                <div class = "subcontainer">
+                                    <h1>{content.title}</h1>
+                                    <h2>{content.description}</h2>
+                                </div>
+                            )
+                        )
+                        
                     )
                 )}
             </div>
