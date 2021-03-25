@@ -6,14 +6,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ProjectSection from "../components/projects_section/project_section.js"
 import CapabilitySection from "../components/capabilities_section/capabilities_section.js"
-
-
+import ProfileSection from "../components/profile_section/profile_section.js"
 
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    
+    <ProfileSection>
+      Profile Section
+    </ProfileSection>
     <ProjectSection>
         Project Section
     </ProjectSection>

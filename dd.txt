@@ -38,7 +38,7 @@ Weekly Goals:
     1. + Add TabLayout subcomponent to CapabilitySection component.
     2. + Create TabLayout React component
     3. Populate capabilities data.
-    4. Test CapabilitiesSection component.
+    4. + Test CapabilitiesSection component.
     5. 
 
     
