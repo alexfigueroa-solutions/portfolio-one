@@ -1,11 +1,12 @@
-import React from 'React';
+import React from 'react';
 
 class TabLayout extends React.Component{
     render(){
         const{
             nav_header_array,
             content_array
-        }
+        } = this.props;
+        return(
         <div class = 'container'>
             <div class = 'nav-container'>
                 <ul class = 'nav-list'>
@@ -17,6 +18,7 @@ class TabLayout extends React.Component{
                     }
                 </ul>
             </div>
+            {/*Tab Content Area: maps content_array to   */}
             <div class = 'content-container'>
                 {content_array.map(
                     array => (
@@ -35,6 +37,7 @@ class TabLayout extends React.Component{
             
 
         </div>
+        )
     }
 }
 export default TabLayout

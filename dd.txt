@@ -13,7 +13,7 @@ Weekly Goals:
         
     8. Create separate React component, TechSkillsSection.
     9. Create navigation with html. 
-    10.  
+    10. 
 
 ]
 
@@ -33,6 +33,13 @@ Weekly Goals:
     7. Eat Lunch 
     8. Smoke Sesh
 
+    Project Tasks:
+    Portfolio
+    1. + Add TabLayout subcomponent to CapabilitySection component.
+    2. + Create TabLayout React component
+    3. Populate capabilities data.
+    4. Test CapabilitiesSection component.
+    5. 
 
     
 ]
