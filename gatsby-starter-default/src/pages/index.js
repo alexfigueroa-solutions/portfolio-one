@@ -7,10 +7,10 @@ import SEO from "../components/seo"
 import ProjectSection from "../components/projects_section/project_section.js"
 import CapabilitySection from "../components/capabilities_section/capabilities_section.js"
 import ProfileSection from "../components/profile_section/profile_section.js"
-
+import style from "./index.scss"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout className = {style.main}>
     <SEO title="Home" />
     <ProfileSection>
       Profile Section

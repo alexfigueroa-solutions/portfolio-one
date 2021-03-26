@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileCard from "../profile_card/profile_card.js"
 import SocialCard from "../social_card/social_card.js"
 import PortfolioIntro from "../portfolio_intro/portfolio_intro.js"
-
+/*
 const professional_titles_list = [
     'Software Developer',
     'Web Developer',
@@ -20,30 +20,21 @@ const specializations_list = [
     'Mathematics',
     'Physics'
 ]
-const profile_dict = {
-    first_name: 'Alejandro',
-    nickname: 'Alex',
-    last_name: 'Figueroa',
-    
-    
-}
+*/
+
+
 class ProfileSection extends React.Component{
     render(){
         return(
             <div class = 'profile-section'>
-                <PortfolioIntro
-                    professional_titles = {professional_titles_list}
-                    specializations = {specializations_list}
-                    >
+                <PortfolioIntro>
                     Portfolio Intro
                 </PortfolioIntro>
                 <ProfileCard
-                profile_dict = {profile_dict}
                     >
                     Profile Card
                 </ProfileCard>
                 <SocialCard
-                    social_array = {social_array}
                     >
                     Social Card
                 </SocialCard>

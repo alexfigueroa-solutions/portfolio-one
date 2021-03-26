@@ -12,6 +12,7 @@ $font-primary: 'Open Sans', sans-serif;
     src: url(/gatsby-starter-default/src/fonts/futuristic_font.otf) format('opentype');
 }
 html {
+  background-color: rgb(5,5,5);
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
