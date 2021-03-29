@@ -76,7 +76,7 @@ Weekly Goals:
     Project Tasks:
         Portfolio: 
             + Create TechSection component.
-            - Create Tech Card Component(sub)
+            + Create Tech Card Component(sub)
             + Implement TechSection in index.js.
             + Populate TechSection component.
             - Test TechSection component with automated tests. 
