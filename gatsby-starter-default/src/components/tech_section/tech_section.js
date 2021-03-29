@@ -1,4 +1,5 @@
 import React from 'react';
+import TechCard from "../tech_card/tech_card.js";
 
 technologies = [
     {

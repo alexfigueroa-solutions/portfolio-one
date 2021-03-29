@@ -78,7 +78,7 @@ Weekly Goals:
             + Create TechSection component.
             - Create Tech Card Component(sub)
             + Implement TechSection in index.js.
-            - Populate TechSection component.
+            + Populate TechSection component.
             - Test TechSection component with automated tests. 
             - Create NavigationBar component. 
             - Implement NavigationBar in index.js.
