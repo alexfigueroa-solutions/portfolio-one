@@ -1,7 +1,7 @@
 import React from 'react';
 import TechCard from "../tech_card/tech_card.js";
 
-technologies = [
+const technologies = [
     {
         title: 'Neo4j',
         description: 'Graph Database',
@@ -177,7 +177,7 @@ technologies = [
         logo_cdn_class: '',
         url: ''
     }
-]
+];
 
 class TechSection extends React.Component{
     

@@ -64,21 +64,24 @@ Weekly Goals:
 
 [3/28/2021: Sunday:
     Daily Tasks:
-        - Wake Up
-        - Do Bed
-        - Make Food
-        - Clean Kitchen
-        - Watch podcasts
-        - Smoke Break
-        - Portfolio Sesh
+        + Wake Up
+        + Do Bed
+        + Make Food
+        + Clean Kitchen
+        + Watch podcasts
+        + Smoke Break
+        + Portfolio Sesh
         - Smoke Break
         - Food
+        - Portfolio Sesh
     Project Tasks:
         Portfolio: 
             + Create TechSection component.
-            - Create Tech Card Component(sub)
+            + Create Tech Card Component(sub)
             + Implement TechSection in index.js.
             + Populate TechSection component.
+            + Fix 'A control must be associated witha text label (tech_card.js 15:17)' bug.
+            - Fix 'Anchors must have content and the content must be accessible by a screen reader.(tech_card.js 15:17)'
             - Test TechSection component with automated tests. 
             - Create NavigationBar component. 
             - Implement NavigationBar in index.js.
