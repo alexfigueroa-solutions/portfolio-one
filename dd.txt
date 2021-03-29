@@ -4,16 +4,34 @@ Weekly Goals:
     2. Create separate html element for each project feature entry using map.
     3. Create separate html element for each project capability
     4. Create separate element for profile section.
-    5. Add ProfileSection component to index.js.
+    5. + Add ProfileSection component to index.js.
     6. + Create separate element, CapabilitiesSection.
         Problems: 
             1. Need to build React tab component.
 
     7. + Add CapabilitiesSection to index.js 
         
-    8. Create separate React component, TechSkillsSection.
+    8. Create separate React component, TechSection.
+    9. Add TechSection to index.js
+    10. populate TechSection data.
+    11.
     9. Create navigation with html. 
     10. 
+
+    Meta:
+    - Get SCSS to work in project.
+    - Create all section components.
+    - Create all section subcomponents. 
+    - Populate all component data. 
+    - Create Navigation.
+    - Style all components. 
+    - Declutter workspace.
+    - Deploy to GH Pages. 
+    - Apply for jobs. 
+    - Package AU70MA7A. 
+    - Package Neo Hacker Theme.
+    - Package Portfolio Website. 
+    - Package FactorBeats e-commerce platform. 
 
 ]
 
@@ -37,9 +55,32 @@ Weekly Goals:
     Portfolio
     1. + Add TabLayout subcomponent to CapabilitySection component.
     2. + Create TabLayout React component
-    3. Populate capabilities data.
+    3. + Populate capabilities data.
     4. + Test CapabilitiesSection component.
     5. 
 
     
+]
+
+[3/28/2021: Sunday:
+    Daily Tasks:
+        - Wake Up
+        - Do Bed
+        - Make Food
+        - Clean Kitchen
+        - Watch podcasts
+        - Smoke Break
+        - Portfolio Sesh
+        - Smoke Break
+        - Food
+    Project Tasks:
+        Portfolio: 
+            + Create TechSection component.
+            - Create Tech Card Component(sub)
+            + Implement TechSection in index.js.
+            - Populate TechSection component.
+            - Test TechSection component with automated tests. 
+            - Create NavigationBar component. 
+            - Implement NavigationBar in index.js.
+            - Populate NavigationBar data.
 ]
