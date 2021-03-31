@@ -68,4 +68,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+.dd.txt
+/dd.txt
 dd.txt

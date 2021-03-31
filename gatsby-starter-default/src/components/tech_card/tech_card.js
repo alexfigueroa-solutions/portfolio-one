@@ -6,14 +6,13 @@ class TechCard extends React.Component{
             title,
             description,
             category,
-            use_cases,
+            use_cases = [],
             logo_cdn_class,
             url
         } = this.props;
         return(
             <div class = 'container'>
-                <a href = {url} class = {logo_cdn_class} aria-label = "Logo"></a>
-                <h1 href = {url}>{title}</h1>
+                <a href = {url} class = {logo_cdn_class} aria-label = "Logo">{title}</a>
                 <h2>{description}</h2>
                 <h3>{category}</h3> 
                 <div>
@@ -21,7 +20,7 @@ class TechCard extends React.Component{
                     {
                     use_cases.map(
                         use_case => (
-                            <h3>{use_case}</h3>
+                            <h5>{use_case}</h5>
                         )
                     )
                 }

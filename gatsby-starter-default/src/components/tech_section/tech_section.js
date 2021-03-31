@@ -93,7 +93,7 @@ const technologies = [
         description: 'Python Back-End Web Development Framework and Templating Engine',
         category: 'Back-End',
         use_cases: [
-
+            ""
         ],
         logo_cdn_class: '',
         url: ''
@@ -125,6 +125,7 @@ const technologies = [
         description: 'Data Visualization Python Library',
         category: 'Front-End',
         use_cases: [
+            ""
 
         ],
         logo_cdn_class: '',
@@ -140,6 +141,7 @@ const technologies = [
         description: '',
         category: 'Front-End',
         use_cases: [
+            ""
 
         ],
         logo_cdn_class: '',
@@ -161,7 +163,7 @@ const technologies = [
         description: 'Front-End Web Development Library',
         category: 'Front-End',
         use_cases: [
-
+            ""
         ],
         logo_cdn_class: '',
         url: ''
@@ -172,6 +174,7 @@ const technologies = [
         description: 'Front-End Serverless Web Development Framework',
         category: 'Front-End',
         use_cases: [
+            ""
 
         ],
         logo_cdn_class: '',

@@ -33,6 +33,125 @@ Weekly Goals:
     - Package Portfolio Website. 
     - Package FactorBeats e-commerce platform. 
 
+    Meta: Car Acquisition: 
+    + Practice for permit test.
+    + Get permit.
+    + Get Real ID.
+    - Practice Driving. 
+    - Once Comfortable w/ Driving, Schedule Behind-The-Wheel Test.
+    - Bring Paperwork to DMV and pass test. 
+    - Receive License.
+    - Go to Bakersfield for a week or weekend.
+    - Learn to drive stick in Bakersfield. 
+    - Handle paperwork with Carlos for car.
+    - Drive back to VV with car.
+    
+    Meta: Job Acquisition: 
+    + Secure portfolio projects. 
+    + Get portoflio projects near complete.
+    - Finish Portfolio.
+    - Create Resume.
+    - Apply for Jobs.
+    - Whiteboard Practice. 
+    - Add to Portfolio. Complete Portfolio Projects. 
+    - Interview for job. 
+    - Pass through interview process. 
+    - Get job:
+        > Preferred salary: $80 - $110k.
+    Meta: Vegas Relocation:
+        Pre-Relocation: 
+            + Skill Acquisition
+            + Startup Idea Incubation
+            - Car Acquisition
+            - Job Acquisition
+            - Buy phone and pay phone bill. 
+            - Buy gas weekly for social and business travel.
+            - Get car insurance.
+            - Buy Laptop. 
+            - Code in Nature. 
+            Save for: 
+                One-Time:
+                    - Building Tools (~$1k)
+                    - Building Materials (~$1k)
+                    - Basic Essential Furniture ($~800)
+                    - House Safety Deposit (~$2.5k)
+                    - 2-Month Safety Net ($10k)
+                    - Music Studio Equipment (~$1.5k)
+                    - Photography Equipment (~$1.5k)
+                    - TV (~$400)
+                    - Kitchen Gear ($200)
+                    - Restroom Gear ($100)
+                Monthly:
+                    - House Rent (~$2.5k)
+                    - Utilities + Bills + Insurance(~$1.7k)
+                    - Food (~$400)
+                    - Gas ($400)
+                    - Investing ($500)
+                    - Toiletries + Hygiene ($100)
+                    - Car Maintenance (~$100)
+                    - Atyka ($500)
+                Total: 
+                    ~ Vegas Relocation Costs: $25.2k: 
+                        - If I want to move in 5 Months from job acquisition:
+                            - Monthly Minimum Income Req: $25.2k/5 = $5.04k
+                            - Annual Min Income Req (after taxes): $5.04k*12 = $60.48k
+                            - Annual Min Income Req (before taxes): $67.2k
+                    - Monthly Sustainability Costs: $5.2k
+                        - Annual Min Income Req (after taxes): $62.4k
+                        - Annual Min Income Req (before taxes): $69.33k
+        Relocating:
+            - Set up appointments to view homes in person.
+            - Attend appointments to view homes.
+            - Secure House and pay deposit.
+            - Get house keys. 
+            - Secure processes for utilities.
+            - Pay all first months bills and utilities ($4.2k)
+            - Pack belongings in car: 
+                - Clothes
+                - Toothbrush
+                - Computer
+                - Desk Lamp
+                - Electronics
+                - Books
+                - Hamper
+                - Paperwork
+            - Drive to Las Vegas with my belongings and car.
+            - Drop off belongings. 
+            - Go to smoke shop to buy smoking gear. 
+            - Go to dispensary. 
+            - Go shopping for all one-time costs ($6.5k)   
+            - Buy Food + Clothes + Toiletries + Hygiene ($500)
+            - Unpack + Organize Home:
+                - Set up tech lab
+                - Set up programming lab
+                - Set up podcast studio
+                - Set up music studio
+                - Set up kitchen
+                - Set up lounge/living area.
+                - Set up bathroom. 
+                - Set up bedroom. 
+
+            - Get Nevada Driver's License.
+            - Register Cybrvybe as DBA.
+            - Open Business Account for Cybrvybe.
+            - Start housewarming get-togethers
+
+        Attaining New Stability: 
+    
+    Meta: Independent Stability:
+    - Car Acquisition
+    - Job Acquisition
+
+    Meta: Business Development:
+    - Independent Contracting Software Development Services
+    - Vegas Relocation
+    - The Cybrvybe Podcast
+    - AU70MA7A v.0
+    - Atyka Furniture: "Cold Exuberance" Collection.
+    - 
+    
+
+
 ]
 
 [3/24/2021 = Wednesday:
@@ -71,9 +190,11 @@ Weekly Goals:
         + Watch podcasts
         + Smoke Break
         + Portfolio Sesh
-        - Smoke Break
-        - Food
+        + Smoke Break
+        + Food
         - Portfolio Sesh
+        - Gaming Sesh 
+        - Sleep Sesh
     Project Tasks:
         Portfolio: 
             + Create TechSection component.
@@ -81,9 +202,47 @@ Weekly Goals:
             + Implement TechSection in index.js.
             + Populate TechSection component.
             + Fix 'A control must be associated witha text label (tech_card.js 15:17)' bug.
+            
+]
+
+[3/29/21: Monday:
+    Project Tasks:
+        Portfolio:
+        Car Acquisition:
+            - Practice Driving
+
+]
+
+[3/31/21: Wednesday:
+    Tasks:
+        Portfolio:
+            + Fix 'use_cases' is not defined. 
             - Fix 'Anchors must have content and the content must be accessible by a screen reader.(tech_card.js 15:17)'
             - Test TechSection component with automated tests. 
             - Create NavigationBar component. 
             - Implement NavigationBar in index.js.
             - Populate NavigationBar data.
+        Professional Profile Development:
+            - Finish Github AU70MA7A README.md
+        Personal: 
+            + Wake Up process
+            + Clean Room 
+            - Do Laundry
+                + 1st load
+                + 2nd load
+                - 3rd load
+            - Fold Clothes
+                - 1st load
+                - 2nd load
+                - 3rd load
+            + Take Shower
+            + Get Dressed
+            + Eat Lunch
+            - Eat Dinner
+            - Hang out with Marina
+            - Defrost Chicken
+            - Cook Chicken
+            - Put Food Away
+        
+
 ]
