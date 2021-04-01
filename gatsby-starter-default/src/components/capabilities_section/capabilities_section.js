@@ -89,7 +89,7 @@ const capability_content_array= [
 
 class CapabilitySection extends React.Component{
     render(){
-        return <div class = "container">
+        return <div>
             <h1 class = "container-section">
                 Capabilities
             </h1>

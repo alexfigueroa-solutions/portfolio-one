@@ -217,8 +217,15 @@ Weekly Goals:
     Tasks:
         Portfolio:
             + Fix 'use_cases' is not defined. 
-            - Fix 'Anchors must have content and the content must be accessible by a screen reader.(tech_card.js 15:17)'
-            - Test TechSection component with automated tests. 
+            + Fix 'Anchors must have content and the content must be accessible by a screen reader.(tech_card.js 15:17)'
+            + Test TechSection component. 
+            - Add Styling to tech_card.js.
+            - Add Styling to all containers.
+            - Add Styling to ProfileSection
+            - Add Styling to ProjectSection
+            - Add Styling to CapabilitiesSection.
+            - Add Styling to TechSection
+            - Add Styling to ContactSection
             - Create NavigationBar component. 
             - Implement NavigationBar in index.js.
             - Populate NavigationBar data.
@@ -230,19 +237,18 @@ Weekly Goals:
             - Do Laundry
                 + 1st load
                 + 2nd load
-                - 3rd load
+                + 3rd load
+                - 4th load
+                - 5th load
             - Fold Clothes
-                - 1st load
-                - 2nd load
-                - 3rd load
             + Take Shower
             + Get Dressed
             + Eat Lunch
             - Eat Dinner
             - Hang out with Marina
-            - Defrost Chicken
-            - Cook Chicken
-            - Put Food Away
+            + Defrost Chicken
+            + Cook Chicken
+            + Put Food Away
         
 
 ]
