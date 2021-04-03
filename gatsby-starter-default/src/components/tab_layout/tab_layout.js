@@ -7,7 +7,7 @@ class TabLayout extends React.Component{
             content_array
         } = this.props;
         return(
-        <div class = 'container'>
+        <div>
             <div class = 'nav-container'>
                 <ul class = 'nav-list'>
                     {nav_header_array.map(

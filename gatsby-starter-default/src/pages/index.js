@@ -1,17 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+
+
 
 import SEO from "../components/seo"
 import ProjectSection from "../components/projects_section/project_section.js"
 import CapabilitySection from "../components/capabilities_section/capabilities_section.js"
 import ProfileSection from "../components/profile_section/profile_section.js"
 import TechSection from "../components/tech_section/tech_section.js"
-import style from "./index.scss"
+import "./index.scss"
 
 const IndexPage = () => (
-  <Layout className = {style.main}>
+  <div>
     <SEO title="Home" />
     <ProfileSection>
       Profile Section
@@ -27,10 +27,7 @@ const IndexPage = () => (
       >
         Tech Section
     </TechSection>
-
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  </div>
 )
 
 export default IndexPage

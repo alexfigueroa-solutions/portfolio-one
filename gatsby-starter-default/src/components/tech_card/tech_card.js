@@ -11,7 +11,7 @@ class TechCard extends React.Component{
             url
         } = this.props;
         return(
-            <div className = {tech_card_style.container}>
+            <div class = {tech_card_style.container}>
                 <a href = {url} class = {logo_cdn_class} aria-label = "Logo">{title}</a>
                 <h2>{description}</h2>
                 <h3>{category}</h3> 

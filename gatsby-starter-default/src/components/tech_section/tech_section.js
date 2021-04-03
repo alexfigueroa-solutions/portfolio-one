@@ -187,7 +187,7 @@ class TechSection extends React.Component{
     render(){
         
         return(
-            <div class = 'container'>
+            <div>
                 {
                     technologies.map(
                         technology => (

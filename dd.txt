@@ -252,3 +252,16 @@ Weekly Goals:
         
 
 ]
+
+[4/2/2021: Friday:
+    Tasks:
+        Professional Profile Development:
+            Portfolio:
+                + Fix SCSS-React connection by modifying the className attribute.
+                - 
+        Personal:
+            + Wake Up
+            + Clean Room
+            + Shower
+        Car Acquisition: 
+]
