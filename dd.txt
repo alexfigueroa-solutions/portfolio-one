@@ -265,3 +265,17 @@ Weekly Goals:
             + Shower
         Car Acquisition: 
 ]
+
+[4/6/2021: Tuesday:
+    Tasks:
+        Professional Profile Development:
+            Portfolio:
+                + Arrange TechnicalTraits in grid
+                - Arrange Projects Section in row of 4.
+                - Style Project Cards
+                - Add Popup Project Page
+                - Style Popup Project Page
+        Personal:
+            + Wake Up
+            - Clean Room
+]

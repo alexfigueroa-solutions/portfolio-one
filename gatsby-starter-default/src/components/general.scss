@@ -36,9 +36,10 @@ html{
 }
 .technicalTraitsContainer{
     display:grid;
-    width:100%;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 'technicalTraits';
+    grid-template-rows: repeat(2, 20rem [row-start]);
+    grid-template-columns: repeat(3, auto [col-start]);
+    
+    
     
     
 }
@@ -50,13 +51,16 @@ html{
 }
 
 .technicalTraitProfileCard{
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content:center;
     border: solid $dark-primary 0.05rem;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
-    grid-area: technicalTraits;
+    padding: 0rem 1rem;
+    width: auto;
+   
+    
+    
 }
 .bioProfileCard{
     display:flex;
@@ -132,7 +136,7 @@ html{
 }
 .socialIcon{
     color: $dark-primary;
-    
+    font-size: 0.5rem;
     text-align:center;
     
 }
