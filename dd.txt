@@ -273,8 +273,8 @@ Weekly Goals:
                 + Arrange TechnicalTraits in grid
                 + Add hover styling to TechnicalTraits.
                 + Arrange Projects Section in row of 4.
-                - Style Project Cards
-                - Add Project Card Buttons
+                + Style Project Cards
+                + Add Project Card Buttons
                 - Arrange Capabilities into Tab Structure.
                 
                 

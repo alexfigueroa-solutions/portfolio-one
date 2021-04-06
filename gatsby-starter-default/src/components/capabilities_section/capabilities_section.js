@@ -1,6 +1,6 @@
 import React from 'react';
 import TabLayout from "../tab_layout/tab_layout.js"
-
+import "../general.scss";
 const capability_nav_headers_array = [
     'Web Development',
     'Database',
@@ -90,9 +90,7 @@ const capability_content_array= [
 class CapabilitySection extends React.Component{
     render(){
         return <div>
-            <h1 class = "container-section">
-                Capabilities
-            </h1>
+            
             <TabLayout
                 nav_header_array = {capability_nav_headers_array}
                 content_array = {capability_content_array}>

@@ -7,24 +7,24 @@ class TabLayout extends React.Component{
             content_array
         } = this.props;
         return(
-        <div>
-            <div class = 'nav-container'>
-                <ul class = 'nav-list'>
+        <div className = 'tabComponent'>
+            <div className = 'tabNavDiv'>
+                <ul className = 'tabNavList'>
                     {nav_header_array.map(
                         header =>(
-                            <li class = 'nav-btn'>{header}</li>
+                            <li className = 'tabNavBtn'>{header}</li>
                         )
                     )
                     }
                 </ul>
             </div>
             {/*Tab Content Area: maps content_array to   */}
-            <div class = 'content-container'>
+            <div className = 'tabContentDiv'>
                 {content_array.map(
                     array => (
                         array.map(
                             content =>(
-                                <div class = "subcontainer">
+                                <div class = "tabContentSubDiv">
                                     <h1>{content.title}</h1>
                                     <h2>{content.description}</h2>
                                 </div>

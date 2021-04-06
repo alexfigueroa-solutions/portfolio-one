@@ -1,6 +1,8 @@
 import React from 'react';
 import "../layout/layout.scss";
 import "../general.scss";
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const { Component } =  React;
@@ -13,7 +15,8 @@ class ProjectCard extends Component {
             description,
             features,
             stack,
-            demonstrated_capabilities
+            demonstrated_capabilities,
+            github_repo_url
              } = this.props;
 
         return(
@@ -24,6 +27,10 @@ class ProjectCard extends Component {
                     <h1 className = "cardTitle">
                         {title}
                     </h1>
+                    <div className = "cardButtonDiv">
+                        <btn href = {github_repo_url}><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon>View Repo</btn>
+                        <btn>View Project</btn>
+                    </div>
 
                 </div>
                 <div className = "cardDescriptionDiv">

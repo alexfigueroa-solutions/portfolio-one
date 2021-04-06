@@ -227,9 +227,12 @@ html{
     flex-flow: row nowrap;
     justify-content: center;
     width: 100%;
+    padding:2rem 0rem;
+    background-color:$dark-shadow-neg;
+    border: 0.1rem solid $dark-shadow-pos;
     .projectCard:hover{
         border: solid $light-primary 0.05rem;
-        animation: projectCardHover 0.3s;
+        animation: projectCardHover 0.025s;
         z-index: 10;
         color: $light-primary;
         background-color: $light-primary-background;
@@ -248,16 +251,20 @@ html{
     height: 30rem;
     overflow-y:scroll;
 }
-
-.cardTitleDiv{
+.cardButtonDiv{
     display:flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.cardTitleDiv{
+    display:flex;
+    flex-flow: column nowrap;
     text-align: center;
     
 }
 .cardTitle{
     letter-spacing:0.5rem;
-    font-size:1.2rem;
+    font-size:1rem;
     font-weight:100;
     color: $dark-primary;
     align-self:center;
@@ -293,5 +300,39 @@ html{
 .cardCapabilitiesDiv{
     display: flex;
     flex-flow: column nowrap;
+}
+
+
+
+
+
+
+/*Capabilities Section*/
+.tabComponent{
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    overflow-x:scroll;
+    
+}
+.tabNavDiv{
+    display:flex;
+}
+.tabNavList{
+    display:flex;
+    flex-flow: column nowrap;
+}
+.tabNavBtn{
+    display:flex;
+}
+.tabContentDiv{
+    display:flex;
+    position:relative;
+
+}
+.tabContentSubDiv{
+    display:flex;
+    flex-flow: column nowrap;
+    position:relative;
 }
 
