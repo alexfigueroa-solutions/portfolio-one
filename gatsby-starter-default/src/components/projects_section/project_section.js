@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from "../project_card/project_card.js"
-import "../layout/layout.scss";
+import "../general.scss";
 
 
 
@@ -125,7 +125,7 @@ class ProjectSection extends React.Component {
     render(){
         
 
-        return <div className = "horizontalSectionLayout">Section Container
+        return <div className = "projectSectionContainer">
                     {
                     ProjectArray.map(
                         project => (

@@ -201,3 +201,97 @@ html{
     
 
 }
+
+/* Projects Section
+
+
+
+
+
+*/
+@keyframes projectCardHover{
+    0%{
+        border: solid $dark-primary 0.05rem;
+        width:25%;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    }
+    100%{
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+        border: solid $light-primary 0.05rem;
+        width:50%;
+    }
+
+}
+.projectSectionContainer{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    .projectCard:hover{
+        border: solid $light-primary 0.05rem;
+        animation: projectCardHover 0.3s;
+        z-index: 10;
+        color: $light-primary;
+        background-color: $light-primary-background;
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+        width: 50%;
+    }
+    
+}
+.projectCard{
+    background-color: $dark-primary-background;
+    display:flex;
+    flex-flow: column nowrap;
+    border: 0.05rem solid $dark-primary;
+    padding:1rem;
+    width:25%;
+    height: 30rem;
+    overflow-y:scroll;
+}
+
+.cardTitleDiv{
+    display:flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    
+}
+.cardTitle{
+    letter-spacing:0.5rem;
+    font-size:1.2rem;
+    font-weight:100;
+    color: $dark-primary;
+    align-self:center;
+    text-align:center;
+}
+.cardDescriptionDiv{
+    display:flex; 
+    flex-flow: column nowrap;
+
+}
+.cardCollapsibleTree{
+    display:flex;
+    flex-flow: column nowrap;
+}
+.cardFeaturesDiv{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+.cardEntryDiv{
+    list-style: decimal;
+
+}
+.cardEntryValue{
+    color: $light-background;
+    letter-spacing:0.2rem;
+    font-size:0.7rem;
+}
+.cardStackDiv{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.cardCapabilitiesDiv{
+    display: flex;
+    flex-flow: column nowrap;
+}
+

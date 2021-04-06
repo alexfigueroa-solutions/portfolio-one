@@ -18,18 +18,18 @@ const IndexPage = () => (
     
     <SEO title="Home" />
     <ProfileSection>
-      Profile Section
+      
     </ProfileSection>
     <ProjectSection>
-        Project Section
+      
     </ProjectSection>
     <CapabilitySection>
-        Capabilities Section
+       
     </CapabilitySection>
     <TechSection 
      
       >
-        Tech Section
+     
     </TechSection>
   </div>
 )

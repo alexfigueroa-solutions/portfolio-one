@@ -271,11 +271,23 @@ Weekly Goals:
         Professional Profile Development:
             Portfolio:
                 + Arrange TechnicalTraits in grid
-                - Arrange Projects Section in row of 4.
+                + Add hover styling to TechnicalTraits.
+                + Arrange Projects Section in row of 4.
                 - Style Project Cards
-                - Add Popup Project Page
-                - Style Popup Project Page
+                - Add Project Card Buttons
+                - Arrange Capabilities into Tab Structure.
+                
+                
+            Github:
+                - Add to AU70MA7A readme.
+                - Create and add to AU70MA7A-CLI readme.
+                - Change bio. 
+            
         Personal:
             + Wake Up
-            - Clean Room
+            + Clean Room
+            + Programming Sesh
+            + Eat
+            + Smoke Sesh
+            - Programming Sesh
 ]
