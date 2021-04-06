@@ -33,7 +33,7 @@ class SocialCard extends React.Component{
                 {
                     social_array.map(
                         social_profile =>(
-                            <FontAwesomeIcon class = 'socialIcon' href = {social_profile.link} icon = {social_profile.logo_cdn}></FontAwesomeIcon>
+                            <FontAwesomeIcon className = 'socialIcon' href = {social_profile.link} icon = {social_profile.logo_cdn}></FontAwesomeIcon>
                         )
                     )
                 }

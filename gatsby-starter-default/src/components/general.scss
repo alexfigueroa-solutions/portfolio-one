@@ -10,14 +10,34 @@ html{
  
 
 }
+@keyframes CardHover{
+    0%{
+        border: solid $dark-primary 0.05rem;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary; 
+    }
+    
+    100%{
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+        border: solid $light-primary 0.05rem;
+    }
+}
 
- .profileDashboard{
+.profileDashboard{
     background-color: $dark-shadow-neg;
     padding: 1rem;
     width: stretch;
     height: fit-content;
     align-self:center;
     text-align:center;
+    .basicProfileInfoContainer:hover{
+        border: solid $light-primary 0.05rem;
+        animation: CardHover 0.7s;
+        z-index: 10;
+        color: $light-primary;
+        background-color: $light-primary-background;
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+
+    }
 }
 
 .basicProfileInfoLayout{
@@ -26,6 +46,7 @@ html{
     max-width:15rem;
     border: solid $dark-primary 0.05rem;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    
 }
 .profileRow{
     display:flex;
@@ -39,6 +60,14 @@ html{
     grid-template-rows: repeat(2, 20rem [row-start]);
     grid-template-columns: repeat(3, auto [col-start]);
     
+    .technicalTraitProfileCard:hover{
+        border: solid $light-primary 0.05rem;
+        animation: CardHover 0.7s;
+        z-index: 10;
+        color: $light-primary;
+        background-color: $light-primary-background;
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+    }
     
     
     
@@ -48,6 +77,14 @@ html{
     flex-direction:row;
     width:100%;
     flex-wrap: 3fr;
+    .bioProfileCard:hover{
+        border: solid $light-primary 0.05rem;
+        animation: CardHover 0.7s;
+        z-index: 10;
+        color: $light-primary;
+        background-color: $light-primary-background;
+        box-shadow: 0rem 0rem 0.5rem $light-primary;
+    }
 }
 
 .technicalTraitProfileCard{
@@ -58,10 +95,12 @@ html{
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
     padding: 0rem 1rem;
     width: auto;
-   
+    
     
     
 }
+
+
 .bioProfileCard{
     display:flex;
     flex-direction: column;
@@ -83,7 +122,7 @@ html{
     padding:0.3rem;
 }
 .Label{
-    background-color: $dark-shadow-neg;
+    
     text-transform:uppercase;
     border-bottom: 0.01rem $dark-primary solid;
     
@@ -92,7 +131,7 @@ html{
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
     font-weight: 100;
-    box-shadow: inset 0rem -0.2rem 1rem $dark-shadow-pos, inset 0rem 0.2rem 0.5rem black;
+   
 
     
     text-align:center;
@@ -132,11 +171,33 @@ html{
 .socialCard{
     display:flex;
     flex-direction:row;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding:0.5rem;
+    align-self: center;
     
 }
 .socialIcon{
     color: $dark-primary;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align:center;
+    padding: 0.3rem;
     
+}
+@keyframes SocialIcon{
+    0%{
+        color: $dark-primary;
+   
+    }
+    100%{
+        color: $light-primary;
+     
+    }
+}
+.socialIcon:hover{
+    color: $light-primary;
+    animation: SocialIcon 0.7s;
+    
+
 }
