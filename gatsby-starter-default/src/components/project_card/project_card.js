@@ -1,5 +1,6 @@
 import React from 'react';
 import "../layout/layout.scss";
+import "./project_card.scss";
 
 const { Component } =  React;
 
@@ -8,7 +9,7 @@ class ProjectCard extends Component {
     render(){
         const { 
             title,
-            description, 
+            description,
             features,
             stack,
             demonstrated_capabilities
@@ -16,9 +17,13 @@ class ProjectCard extends Component {
 
         return(
             <div className = "verticalSectionLayout">
-                <div className = "card project-preview">
-                    <div className = "card-header font-weight-bold">
-                        {title}
+                <div className = "projectCard">
+                    <div className = "projectCardTitle">
+                
+                        <h1 className = "labelResponse">
+                            {title}
+                        </h1>
+
                     </div>
                     <div className = "card-description">
                         {description}

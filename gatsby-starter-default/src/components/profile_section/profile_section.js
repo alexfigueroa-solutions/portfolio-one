@@ -1,7 +1,6 @@
 import React from 'react';
 import ProfileCard from "../profile_card/profile_card.js"
-import SocialCard from "../social_card/social_card.js"
-import PortfolioIntro from "../portfolio_intro/portfolio_intro.js"
+
 /*
 const professional_titles_list = [
     'Software Developer',
@@ -27,17 +26,12 @@ class ProfileSection extends React.Component{
     render(){
         return(
             <div class = 'profile-section'>
-                <PortfolioIntro>
-                    Portfolio Intro
-                </PortfolioIntro>
+                
                 <ProfileCard
                     >
                     Profile Card
                 </ProfileCard>
-                <SocialCard
-                    >
-                    Social Card
-                </SocialCard>
+                
             </div>
         )
     }

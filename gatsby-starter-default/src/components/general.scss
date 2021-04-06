@@ -1,0 +1,138 @@
+@import "./colors.scss";
+html{
+    font-family:Verdana, Geneva, Tahoma,  sans-serif;
+    background-image: url('../images/fractals-1892996_1920.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: round;
+    line-height:1.3rem;
+    text-transform: uppercase;
+ 
+
+}
+
+ .profileDashboard{
+    background-color: $dark-shadow-neg;
+    padding: 1rem;
+    width: stretch;
+    height: fit-content;
+    align-self:center;
+    text-align:center;
+}
+
+.basicProfileInfoLayout{
+    display:flex;
+    flex-direction:column;
+    max-width:15rem;
+    border: solid $dark-primary 0.05rem;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+}
+.profileRow{
+    display:flex;
+    flex-direction:row;
+    width:stretch;
+    justify-content: stretch;
+    width:100%;
+}
+.technicalTraitsContainer{
+    display:grid;
+    width:100%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 'technicalTraits';
+    
+    
+}
+.bioProfileLayout{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    flex-wrap: 3fr;
+}
+
+.technicalTraitProfileCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border: solid $dark-primary 0.05rem;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    grid-area: technicalTraits;
+}
+.bioProfileCard{
+    display:flex;
+    flex-direction: column;
+    width:auto;
+    min-width:20rem;
+    height: stretch;
+    border: solid $dark-primary 0.05rem;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    padding:1rem;
+    overflow-y: scroll;
+}
+.basicProfileInfoContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    border: 0.01rem $dark-shadow-neg solid;
+    padding:0.3rem;
+}
+.Label{
+    background-color: $dark-shadow-neg;
+    text-transform:uppercase;
+    border-bottom: 0.01rem $dark-primary solid;
+    
+    color: $dark-primary;
+    padding:0.5rem 0.7rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    box-shadow: inset 0rem -0.2rem 1rem $dark-shadow-pos, inset 0rem 0.2rem 0.5rem black;
+
+    
+    text-align:center;
+    align-self:center;
+}
+.labelValue{
+    font-size:0.8rem;
+    letter-spacing:0.2rem;
+    font-weight: 200;
+    color: $dark-primary;
+    text-transform:uppercase;
+}
+.boxTitle{
+    font-size:1.1rem;
+    text-transform: uppercase;
+    color: $light-primary;
+    padding:0.3rem;
+    
+}
+.boxDescription{
+    font-size: 0.7rem;
+    color: $dark-primary;
+    letter-spacing:0.2rem;
+    padding: 0.3rem;
+}
+.techTraitIcon{
+
+    align-self: center;
+    align-content: center;
+    text-align:center;
+    align-items:center;
+    color: $dark-primary;
+    font-size:3rem;
+    padding:0.5rem;
+
+}
+.socialCard{
+    display:flex;
+    flex-direction:row;
+    
+}
+.socialIcon{
+    color: $dark-primary;
+    
+    text-align:center;
+    
+}

@@ -258,7 +258,7 @@ Weekly Goals:
         Professional Profile Development:
             Portfolio:
                 + Fix SCSS-React connection by modifying the className attribute.
-                - 
+                - Style Project Section
         Personal:
             + Wake Up
             + Clean Room

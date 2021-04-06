@@ -2,8 +2,14 @@
 .horizontalSectionLayout{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content:center;
     padding: 0.3rem;
+    align-self: stretch;
+   
+    
     
 }
 .verticalSectionLayout{
@@ -21,7 +27,7 @@
     padding: 1rem;
 }
 html{
-    background-color: $dark-background;
+    background-color: red;
     box-shadow: 0.1rem 0.1rem inset $dark-shadow-pos; 
     color: white;
 }

@@ -125,7 +125,7 @@ class ProjectSection extends React.Component {
     render(){
         
 
-        return <div className = "verticalSectionLayout">Section Container
+        return <div className = "horizontalSectionLayout">Section Container
                     {
                     ProjectArray.map(
                         project => (

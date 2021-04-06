@@ -11,7 +11,11 @@ import TechSection from "../components/tech_section/tech_section.js"
 import "./index.scss"
 
 const IndexPage = () => (
+
+
   <div>
+    
+    
     <SEO title="Home" />
     <ProfileSection>
       Profile Section

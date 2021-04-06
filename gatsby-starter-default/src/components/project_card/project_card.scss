@@ -1,0 +1,24 @@
+@import "../colors.scss";
+.projectCard{
+    background-color:$dark-shadow-neg;
+    border: 0.05rem $dark-shadow-pos solid;
+    color: $dark-primary;
+    box-shadow: 0.5rem 0.5rem 1rem $dark-shadow-neg, 0rem 0rem 2rem $dark-shadow-pos;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding:0.5rem;
+    h1{
+        color: $light-primary;
+    }
+    
+    
+}
+.projectCard:hover{
+    transform:translateX(5rem);
+    box-shadow: 0rem 0rem 1rem $dark-primary;
+    background-color: $dark-primary-background;
+    border: solid 0.05rem $dark-primary;
+
+}
