@@ -1,30 +1,25 @@
 import React from 'react';
-import tech_card_style from './tech_card_style.scss';
+import "../general.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 class TechCard extends React.Component{
     render(){
         const {
             title,
-            description,
-            category,
-            use_cases = [],
-            logo_cdn_class,
+            
+            tech_icon,
             url
         } = this.props;
         return(
-            <div class = {tech_card_style.container}>
-                <a href = {url} class = {logo_cdn_class} aria-label = "Logo">{title}</a>
-                <h2>{description}</h2>
-                <h3>{category}</h3> 
-                <div>
-                    <h4>Use Cases: </h4>
-                    {
-                    use_cases.map(
-                        use_case => (
-                            <h5>{use_case}</h5>
-                        )
-                    )
-                }
+            <div class = "techCard">
+                <div className = 'textLogoDiv'>
+                    <FontAwesomeIcon href = {url} icon = {tech_icon}></FontAwesomeIcon>
+                    <h1 className = 'labelValueTwo'>{title}</h1>
                 </div>
+                
+               
+                
+                
                 
             </div>
         )
