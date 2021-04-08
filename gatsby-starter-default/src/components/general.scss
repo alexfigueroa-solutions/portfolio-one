@@ -24,8 +24,6 @@ html{
 
 .profileDashboard{
     background-color: $dark-shadow-neg;
-    padding: 1rem;
-    width: stretch;
     height: fit-content;
     align-self:center;
     text-align:center;
@@ -43,7 +41,7 @@ html{
 .basicProfileInfoLayout{
     display:flex;
     flex-direction:column;
-    max-width:15rem;
+    width: 100%;
     border: solid $dark-primary 0.05rem;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
     
@@ -51,7 +49,7 @@ html{
 .profileRow{
     display:flex;
     flex-direction:row;
-    width:stretch;
+    
     justify-content: stretch;
     width:100%;
 }
@@ -227,9 +225,11 @@ html{
     flex-flow: row nowrap;
     justify-content: center;
     width: 100%;
-    padding:2rem 0rem;
+    
+    max-width: 100%;
     background-color:$dark-shadow-neg;
     border: 0.1rem solid $dark-shadow-pos;
+    overflow-x: scroll;
     .projectCard:hover{
         border: solid $light-primary 0.05rem;
         animation: projectCardHover 0.025s;
@@ -248,13 +248,15 @@ html{
     border: 0.05rem solid $dark-primary;
     padding:1rem;
     width:25%;
-    height: 30rem;
+    height: 25rem;
     overflow-y:scroll;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    z-index:5;
 }
 .cardButtonDiv{
     display:flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .cardTitleDiv{
     display:flex;
@@ -263,7 +265,7 @@ html{
     
 }
 .cardTitle{
-    letter-spacing:0.5rem;
+    letter-spacing:0.1rem;
     font-size:1rem;
     font-weight:100;
     color: $dark-primary;
@@ -312,28 +314,74 @@ html{
     display: flex;
     flex-flow: row nowrap;
     width:100%;
-    overflow-x:scroll;
+
+    background-color:$dark-primary-background;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    
+    
+
+    .tabNavDiv{
+        display:flex;
+        border: 0.05rem solid $dark-primary;
+        z-index:5;
+        text-align:center;
+        width: 25%;
+        justify-content:center;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    }
+    
     
 }
-.tabNavDiv{
-    display:flex;
-}
+
 .tabNavList{
     display:flex;
     flex-flow: column nowrap;
+    padding: 0.5rem;
+    text-align:center;
+    .tabNavBtn:hover{
+        color: $dark-primary;
+    }
 }
 .tabNavBtn{
     display:flex;
+    padding: 1rem 0.5rem;
+    color: $light-background;
+    font-size: 0.8rem;
+    text-align:center;
+    letter-spacing:0.1rem;
+    border-bottom: 0.05rem transparent $dark-primary;
+
 }
 .tabContentDiv{
     display:flex;
     position:relative;
+    border: 0.05rem solid $dark-primary;
+    text-align:center;
+    justify-content: center;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
 
 }
 .tabContentSubDiv{
     display:flex;
     flex-flow: column nowrap;
     position:relative;
+    padding: 1rem 0.5rem;
+    
+    h1{
+        @extend .Label;
+    }
+    h2{
+        font-size: 0.8rem;
+        
+    }
+    div{
+        display: flex;
+        flex-flow: column nowrap;
+        text-align:center;
+        justify-content: center;
+    }
 }
 
 
@@ -359,13 +407,21 @@ html{
     flex-flow: row nowrap;
 }
 .techCategoriesDiv{
-    display:grid;
-    grid-template-rows: repeat(2, 50% [row-start]);
-    grid-template-columns: repeat(2, max-content [col-start]);
+    display:flex;
+    flex-flow: row nowrap;
     text-align:center;
-    justify-content: center;
-    grid-gap: 0.5rem;
+    justify-content: space-between;
+    
+    background-color: $dark-shadow-neg;
+    padding: 1rem 2rem;
+    border: 0.05rem solid $dark-primary;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
+    h4{
+        @extend .Label;
+    }
     
 }
+
+
 
 

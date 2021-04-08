@@ -17,15 +17,27 @@ const IndexPage = () => (
     
     
     <SEO title="Home" />
+    <h1 className = 'divider'>
+      Profile
+    </h1>
     <ProfileSection>
       
     </ProfileSection>
+    <h1 className = 'divider'>
+      Projects
+    </h1>
     <ProjectSection>
       
     </ProjectSection>
+    <h1 className = 'divider'>
+      Capabilities
+    </h1>
     <CapabilitySection>
        
     </CapabilitySection>
+    <h1 className = 'divider'>
+      Skills and Technologies
+    </h1>
     <TechSection 
      
       >
