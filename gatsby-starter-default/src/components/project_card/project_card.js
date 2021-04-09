@@ -28,8 +28,8 @@ class ProjectCard extends Component {
                         {title}
                     </h1>
                     <div className = "cardButtonDiv">
-                        <btn href = {github_repo_url}><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon>View Repo</btn>
-                        <btn>View Project</btn>
+                        <btn className = 'githubRepoBtn' href = {github_repo_url}><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon>View Repo</btn>
+                        <btn className = 'viewProjectBtn'>View Project</btn>
                     </div>
 
                 </div>

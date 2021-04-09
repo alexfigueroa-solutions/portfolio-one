@@ -1,12 +1,13 @@
 @import "./colors.scss";
 html{
     font-family:Verdana, Geneva, Tahoma,  sans-serif;
-    background-image: url('../images/fractals-1892996_1920.jpg');
+    background-image: url('../images/pexels-markus-spiske-1089438.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: round;
     line-height:1.3rem;
     text-transform: uppercase;
+    background-color: $dark-shadow-neg;
  
 
 }
@@ -23,7 +24,8 @@ html{
 }
 
 .profileDashboard{
-    background-color: $dark-shadow-neg;
+    margin-top:6.2rem;
+    background-color: $dark-primary-background;
     height: fit-content;
     align-self:center;
     text-align:center;
@@ -227,7 +229,7 @@ html{
     width: 100%;
     
     max-width: 100%;
-    background-color:$dark-shadow-neg;
+   
     border: 0.1rem solid $dark-shadow-pos;
     overflow-x: scroll;
     .projectCard:hover{
@@ -246,7 +248,8 @@ html{
     display:flex;
     flex-flow: column nowrap;
     border: 0.05rem solid $dark-primary;
-    padding:1rem;
+    overflow-x: none;
+    padding-bottom:1rem;
     width:25%;
     height: 25rem;
     overflow-y:scroll;
@@ -257,11 +260,28 @@ html{
     display:flex;
     flex-flow: row nowrap;
     justify-content: center;
+    .githubBtn{
+        background-color: $light-primary;
+        padding: 0.8rem 1rem;
+        color: black;
+
+    }
+    .viewProjectBtn{
+        background-color: $light-primary;
+        padding: 0.8rem 1rem;
+        color: black;
+    }
 }
 .cardTitleDiv{
     display:flex;
     flex-flow: column nowrap;
     text-align: center;
+    background-color: $dark-shadow-neg;
+    border-bottom: 0.05rem black solid;
+    width:100%;
+    margin-top:0rem;
+    padding:0.8rem 1rem;
+    border-bottom: 0.05rem solid $dark-primary;
     
 }
 .cardTitle{
@@ -272,9 +292,30 @@ html{
     align-self:center;
     text-align:center;
 }
+.githubRepoBtn{
+    padding: 0.4rem 0.6rem;
+    letter-spacing:0.1rem;
+    font-size:0.5rem;
+    background-color: $dark-shadow-neg;
+    color: $dark-primary;
+    font-weight:900;
+}
+.viewProjectBtn{
+    padding: 0.1rem;
+    color: $light-primary;
+    font-weight:900;
+    font-size:0.7rem;
+    background-color: $dark-shadow-neg;
+    border: 0.05rem solid $light-primary;
+}
 .cardDescriptionDiv{
     display:flex; 
     flex-flow: column nowrap;
+    btn{
+        padding: 0.4rem 0.6rem;
+        letter-spacing:0.1rem;
+        font-size:0.5rem
+    };
 
 }
 .cardCollapsibleTree{
@@ -412,7 +453,7 @@ html{
     text-align:center;
     justify-content: space-between;
     
-    background-color: $dark-shadow-neg;
+    background-color: $dark-primary-background;
     padding: 1rem 2rem;
     border: 0.05rem solid $dark-primary;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
@@ -424,4 +465,48 @@ html{
 
 
 
+
+
+/* Navigation */
+.metaNavDiv{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    background-color:$dark-shadow-neg;
+    border:0.05rem solid $light-primary;
+    box-shadow: 0rem 0rem 0.5rem $light-primary;
+    overflow: hidden;
+    position: fixed;
+    z-index:11;
+    top: 0rem;
+   
+}
+.navBarDiv{
+    display:flex;
+    flex-flow: row nowrap;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.navEntry{
+    display:flex; 
+    flex-flow: row nowrap;
+    list-style:none;
+    padding:0.8rem;
+   
+    
+}
+.navEntryTitle{
+    color: $light-primary;
+    letter-spacing:0.1rem;
+    padding:0.5rem;
+    font-size: 0.8rem;
+    text-decoration:none;
+}
+.navEntryTitleActive{
+    @extend .navEntryTitle;
+    color: $dark-primary;
+}
 

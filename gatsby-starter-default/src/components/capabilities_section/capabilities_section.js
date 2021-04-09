@@ -18,6 +18,14 @@ const web_dev_capabilities_array = [
     {
         title: 'UI Development',
         description: 'Creates smooth, responsive, and dynamic UIs using various modern web technologies and frameworks.'
+    },
+    {
+        title: 'Back-End Development',
+        description: 'Able to leverage code to create valuable features on the server-side of the web.'
+    },
+    {
+        title: 'Front-End Development',
+        description: 'Able to leverage code to create valuable experiences on the clien-side of the web.'
     }
 
     
@@ -36,16 +44,24 @@ const data_science_capabilities_array = [
     {
         title: 'Quantitative Analysis',
         description: "Implements quantitative statistical techniques to extract insight from data."
+    },
+    {
+        title: 'Qualitative Analysis',
+        description: 'Implements qualitative statistical techniques to extract insight from data.'
+    },
+    {
+        title: 'Data Visualization',
+        description: 'Able to implement data visualizations to convey potent information extracted from data.'
     }
 ]
 const automation_capabilities_array = [
     {
         title: 'Data RPA',
-        description:""
+        description:"Automate data processes such as, but not limited to: data collection, data cleaning, data manipulation, data reporting, etc."
     },
     {
         title: 'Workflow RPA',
-        description: ""
+        description: "Automate workflow processes with code, such as project management, time management, etc."
 
     },
     {
@@ -55,25 +71,12 @@ const automation_capabilities_array = [
 ]
 const dev_ops_capabilities_array = [
     {
-        title: 'Unit Testing',
-        description:""
-    },
-    {
         title: 'UI Testing',
-        description: ""
+        description: "Implements Selenium as automated tests to test UI/UX."
     },
     {
         title: 'Version Control',
-        description: ""
-    }
-]
-const soft_capabilities_array = [
-    {
-        title: 'Fast Learner',
-        description: ""
-    },
-    {
-        title: 'Disciplined Implementation'
+        description: "Manage and maintain versions via branching, git operations, etc. "
     }
 ]
 
@@ -82,8 +85,7 @@ const capability_content_array= [
     database_capabilities_array,
     data_science_capabilities_array,
     automation_capabilities_array,
-    dev_ops_capabilities_array,
-    soft_capabilities_array
+    dev_ops_capabilities_array
 
 ]
 

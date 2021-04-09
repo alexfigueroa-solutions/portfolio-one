@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Element} from 'react-scroll';
 
 
 
@@ -9,7 +9,30 @@ import CapabilitySection from "../components/capabilities_section/capabilities_s
 import ProfileSection from "../components/profile_section/profile_section.js"
 import TechSection from "../components/tech_section/tech_section.js"
 import "./index.scss"
+import NavBar from "../components/nav/nav.js";
 
+const nav_entries = [
+  {
+    title: 'Profile',
+    href: 'ProfileSection'
+  
+  },
+  {
+    title: 'Projects',
+    href: 'ProjectSection'
+   
+  },
+  {
+    title: 'Capabilities',
+    href: 'CapabilitySection'
+   
+  },
+  {
+    title: 'Skills and Technologies',
+    href: 'TechSection'
+    
+  }
+];
 const IndexPage = () => (
 
 
@@ -17,32 +40,34 @@ const IndexPage = () => (
     
     
     <SEO title="Home" />
-    <h1 className = 'divider'>
-      Profile
-    </h1>
-    <ProfileSection>
+    <NavBar nav_entries = {nav_entries}>
+
+    </NavBar>
+    <Element id = "ProfileSection" name = "ProfileSection">
+      <ProfileSection >
+        
+      </ProfileSection>
+    </Element>
+    
+    <Element id = "ProjectSection" name = "ProjectSection">
+      <ProjectSection>
+        
+      </ProjectSection>
+    </Element>
+    
+    <Element id = "CapabilitySection" name = "CapabilitySection">
+      <CapabilitySection>
+        
+      </CapabilitySection>
+    </Element>
+
+    <Element id = "TechSection" name = "TechSection">
+      <TechSection>
       
-    </ProfileSection>
-    <h1 className = 'divider'>
-      Projects
-    </h1>
-    <ProjectSection>
-      
-    </ProjectSection>
-    <h1 className = 'divider'>
-      Capabilities
-    </h1>
-    <CapabilitySection>
-       
-    </CapabilitySection>
-    <h1 className = 'divider'>
-      Skills and Technologies
-    </h1>
-    <TechSection 
-     
-      >
-     
-    </TechSection>
+      </TechSection>
+    </Element>
+    
+    
   </div>
 )
 
