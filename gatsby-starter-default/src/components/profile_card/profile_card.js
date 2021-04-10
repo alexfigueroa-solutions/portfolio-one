@@ -25,12 +25,12 @@ const technical_traits = [
     {
         title: 'Long-Term Player',
         icon_class: faBusinessTime,
-        description: 'I play a long-term hand in life, and focused on delivering long-lasting results.'
+        description: 'I play a long-term hand in life, and focus on delivering long-lasting results.'
     },
     {
         title: 'Knowledge Seeker',
         icon_class: faBookReader,
-        description: 'I continuously seek more effective, and efficient, techniques and technologies - while keeping up to date with emerging technological trends.'
+        description: 'I continuously seek more effective (and efficient) techniques and technologies - while keeping up to date with emerging technological trends.'
     },
     {
         title: 'Process-Oriented',
@@ -60,11 +60,11 @@ const bio_array = [
     },
     {
         label: 'Who Am I',
-        value: "I'm a software developer with a strong background in self-education through exploration and iteration. I developed my passion for software development ancillary to my passion for mathematics. "
+        value: "I'm a software developer with a strong background in self-education through exploration and iteration. I've developed my passion for software development ancillary to my passion for mathematics. "
     },
     {
         label: 'What Is My Mission',
-        value: 'Complexity in mathematics is expressed in much of the problems - and beauty - in reality. My ultimate goal in life is to simplify complexity - or organize chaos - in the real world, through technical means.'
+        value: 'Complexity in mathematics is expressed in much of the problems - and beauty - in reality. My ultimate goal in life is to simplify complexity - or to organize chaos - in the real world, through technical means.'
     }
 ];
 class ProfileCard extends React.Component{

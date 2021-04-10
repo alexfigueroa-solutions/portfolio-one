@@ -6,7 +6,7 @@ import "../general.scss";
 
 const ProjectArray = [
     {
-        title: 'FactorBeats Web Application',
+        title: 'E-Commerce Web Application',
         description: 'Digital Audio Asset E-Commerce Site',
         features: [
             'E-Commerce Checkout',
@@ -36,18 +36,83 @@ const ProjectArray = [
             'Selenium'
         ],
         demonstrated_capabilities: [
-            'Handled a full software development lifecycle using web technologies.',
-            "Designed, architected, and developed a technical solution to a client's problem.",
-            "Handled e-commerce payment processing using the Stripe Payment Portal.",
-            "Employed version control using Git and Github.",
-            "Automated UI/UX testing using Selenium.",
-            "Automated CRUD testing using Python.",
-            "Automated development operations using Python's os module.",
-            "Designed and developed a clean, responsive front-end UI, using ReactJS, VanillaJS, and other front-end technologies.",
-            "Created a content management system (CMS) using custom CRUD operations developed in Python.",
-            "Created and implemented a database using Postgres and Django's ORM (Object Relational Mapper).",
-            "Implemented styling using SCSS.",
-            "Deployed to Heroku server in a Docker container."
+            'Handle a full software development lifecycle using web technologies.',
+            "Design, architect, and develop a technical solution to a client's problem.",
+            "Handle e-commerce payment processing using the Stripe Payment Portal.",
+            "Employ version control using Git and Github.",
+            "Automat UI/UX testing using Selenium.",
+            "Automate CRUD unit testing using Python.",
+            "Automate development operations using Python's os module.",
+            "Design and develop a clean, responsive front-end UI, using ReactJS, VanillaJS, and other front-end technologies.",
+            "Creat a content management system (CMS) using custom CRUD operations developed in Python.",
+            "Creat and implement a database using Postgres and Django's ORM (Object Relational Mapper).",
+            "Implement styling using SCSS.",
+            "Deploy to Heroku server."
+        ]
+    },
+    
+    {
+        title: "Full-Stack Web Development Portfolio",
+        description: "Static GatsbyJS Site",
+        features: [
+            'Professional Profile',
+            'Project Showcasing',
+            'Skills and Capabilities',
+            'Technologies',
+            'Contact'
+        ],
+        stack: [
+            'ReactJS',
+            'Prismic',
+            'GatsbyJS',
+            'VanillaJS',
+            'HTML5',
+            'SCSS',
+            'GraphQL'
+        ],
+        demonstrated_capabilities: [
+            'Design, develop, and create lightweight static sites, while still leveraging modern powerful tools.',
+            'Implement styling using SCSS.',
+            'Deploy to Github Pages',
+            'Develop front-end React components.'
+        ]
+    },
+    {
+        title: 'AU70MA7A v.0',
+        description: 'Data Modeling and Management Platform',
+        features: [
+            'Project Modeling and Management',
+            'Professional Profile Modeling and Management',
+            'Life Event Modeling and Management',
+            'Personal Financial Modeling and Management',
+            'Business Modeling and Management',
+            'Terminal CLI'
+        ],
+        stack: [
+            'Python',
+            'Neo4j'
+        ],
+        demonstrated_capabilities: [
+            'Design and begin to develop a software platform.',
+            'Create and act on ideas.',
+            'Model data using graph databases.',
+            'Decompose systems in business, professional, and personal spheres to their component variables.',
+            'Develop CRUD operations for custom data models in a graph databases.'
+        ]
+    },
+    {
+        title: 'Neo VSCode Theme',
+        description:'Visual Studio Code Theme',
+        features: [
+            'Matrix-inspired theme in Visual Studio Code',
+            'Available on VSCode Marketplace.'
+        ],
+        stack:[
+            'JSON'
+        ],
+        demonstrated_capabilities: [
+            'Manipulate VSCode environment via JSON file editing.',
+            'Deploy VSCode theme to VSCode Marketplace.'
         ]
     },
     {
@@ -70,53 +135,30 @@ const ProjectArray = [
             'Postgres'
         ],
         demonstrated_capabilities: [
-            'Automation of DevOps workflows.',
-            'Automation of Django workflows.',
-            'Reduction in technical debt and overhead for future projects.',
+            'Automate DevOps workflows.',
+            'Automate Django workflows.',
+            'Reduce technical debt and overhead for future projects.',
             'Increase in workload efficiency and productivity for future projects.'
         ]
     
     },
     {
-        title: "Full-Stack Web Development Portfolio",
-        description: "Static GatsbyJS Site",
+        title: 'QvQ: Data Cleaning Tool',
+        description: 'Split Datasets into Quantitative and Qualitative parts.',
         features: [
-            'Professional Profile',
-            'Project Showcasing',
-            'Skills and Capabilities',
-            'Technologies',
-            'Contact'
+            'Terminal CLI'
         ],
         stack: [
-            'ReactJS',
-            'Prismic',
-            'GatsbyJS',
-            'VanillaJS',
-            'HTML5',
-            'SCSS',
-            'GraphQL'
+            'Python',
+            'Pandas',
+            'CSV Data'
         ],
         demonstrated_capabilities: [
-            'Design, development, and creation of lightweight static sites, while still leveraging modern powerful tools.',
-            'Implementation of styling using SCSS.',
-            'Deployment to Github Pages',
-            'DOM Manipulation with Javascript.'
+            'Automate data processes with code.',
+            'Manipulate data using Pandas and Python.',
+            'Handle CSV files.'
         ]
-    },
-    {
-        title: 'Neo VSCode Theme',
-        description:'Visual Studio Code Theme',
-        features: [
-            'Matrix-inspired theme in Visual Studio Code',
-            'Available on VSCode Marketplace.'
-        ],
-        stack:[
-            'JSON'
-        ],
-        demonstrated_capabilities: [
-            'Manipulation of VSCode environment via JSON file editing.',
-            'Deploying VSCode theme to VSCode Marketplace.'
-        ]
+
     }
     ]
     
