@@ -25,12 +25,12 @@ html{
 }
 
 .profileDashboard{
-    margin-top:6.2rem;
+    margin-top:5rem;
     background-color: $dark-primary-background;
     height: fit-content;
     align-self:center;
     text-align:center;
-    width: 100%;
+    
     .basicProfileInfoContainer:hover{
         border: solid $light-primary 0.05rem;
         animation: CardHover 0.7s;
@@ -77,7 +77,7 @@ html{
 .bioProfileLayout{
     display:flex;
     flex-direction:row;
-    width:100%;
+
     flex-wrap: 3fr;
     .bioProfileCard:hover{
         border: solid $light-primary 0.05rem;
@@ -96,7 +96,7 @@ html{
     border: solid $dark-primary 0.05rem;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
     padding: 0rem 1rem;
-    width: auto;
+    height: auto;
     
     
     
@@ -232,7 +232,8 @@ html{
     right:0rem;
     
     overflow-x: scroll;
-    border: 0.1rem solid $dark-shadow-pos;
+    border: 0.1rem solid $dark-primary;
+    box-shadow: 0rem 0rem 0.5rem $dark-primary;
     
     
     .projectCard:hover{
@@ -261,6 +262,115 @@ html{
     z-index:5;
     
 }
+@media screen and (max-width: 800px) {
+    .projectSectionContainer{
+        flex-direction: column;
+        overflow-y:scroll;
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+        
+        
+    }   
+    .projectCard{
+        width: 90%;
+        height: 20rem;
+        min-width: 90%;
+        min-height: 20rem;
+        overflow-y: scroll;
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: center;
+    }
+    
+    .bioProfileCard{
+        display:flex;
+        flex-direction: column;
+        width:auto;
+        min-width:20rem;
+        height: stretch;
+        border: solid $dark-primary 0.05rem;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary;
+        padding:1rem;
+        overflow-y: scroll;
+    }
+    .technicalTraitsContainer{
+        display:grid;
+        grid-template-rows: repeat(3, 20rem [row-start]);
+        grid-template-columns: repeat(2, auto [col-start]);
+        
+        .technicalTraitProfileCard:hover{
+            border: solid $light-primary 0.05rem;
+            animation: CardHover 0.7s;
+            z-index: 10;
+            color: $light-primary;
+            background-color: $light-primary-background;
+            box-shadow: 0rem 0rem 0.5rem $light-primary;
+        }
+        
+        
+        
+    }
+    .bioProfileLayout{
+        display:flex;
+        flex-direction:column;
+        
+        flex-wrap: 3fr;
+        .bioProfileCard:hover{
+            border: solid $light-primary 0.05rem;
+            animation: CardHover 0.7s;
+            z-index: 10;
+            color: $light-primary;
+            background-color: $light-primary-background;
+            box-shadow: 0rem 0rem 0.5rem $light-primary;
+        }
+    }
+    .basicProfileInfoContainer{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        align-items: center;
+        border: 0.01rem $dark-shadow-neg solid;
+        padding:0.3rem;
+    }
+    .profileDashboard{
+        margin-top:6.2rem;
+        background-color: $dark-primary-background;
+        height: fit-content;
+        align-self:center;
+        text-align:center;
+        width: 100%;
+        .basicProfileInfoContainer:hover{
+            border: solid $light-primary 0.05rem;
+            animation: CardHover 0.7s;
+            z-index: 10;
+            color: $light-primary;
+            background-color: $light-primary-background;
+            box-shadow: 0rem 0rem 0.5rem $light-primary;
+    
+        }
+    }
+    
+    .basicProfileInfoLayout{
+        display:flex;
+        flex-direction:row;
+        width: 100%;
+        border: solid $dark-primary 0.05rem;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary;
+        justify-content: space-between;
+    }
+    .profileRow{
+        display:flex;
+        flex-direction:column;
+        
+        justify-content: stretch;
+        width:100%;
+    }
+  }
+
 .cardButtonDiv{
     display:flex;
     flex-flow: row nowrap;
@@ -367,7 +477,8 @@ html{
     display: flex;
     flex-flow: row nowrap;
     width:100%;
-
+    height: 20rem;
+    
     background-color:$dark-primary-background;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
     
@@ -390,6 +501,7 @@ html{
     display:flex;
     flex-flow: column nowrap;
     padding: 0.5rem;
+    justify-content: space-between;
     text-align:center;
     .tabNavBtn:hover{
         color: $dark-primary;
@@ -397,11 +509,12 @@ html{
 }
 .tabNavBtn{
     display:flex;
-    padding: 1rem 0.5rem;
+    padding: none;
     color: $light-background;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    
     text-align:center;
-    letter-spacing:0.1rem;
+ 
     border-bottom: 0.05rem transparent $dark-primary;
 
 }
@@ -413,6 +526,7 @@ html{
     justify-content: center;
     width: 100%;
     z-index: 5;
+    overflow-y: scroll;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
 
 }
@@ -522,4 +636,155 @@ html{
     @extend .navEntryTitle;
     color: $dark-primary;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+    .projectSectionContainer{
+        flex-direction: column;
+        overflow-y: scroll;
+        height: stretch;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 4rem;
+        flex-wrap: nowrap;
+        
+        
+        
+    }   
+    .projectCard{
+        width: 100%;
+        height: 20rem;
+        min-width: 100%;
+        min-height: 20rem;
+        overflow-y: scroll;
+        display: flex;
+        flex-flow: column nowrap;
+        align-self: center;
+    }
+    
+    
+    .technicalTraitsContainer{
+        display:grid;
+        padding : 1rem 0rem;
+        grid-template-rows: repeat(3, auto [row-start]);
+        grid-template-columns: repeat(2, 50% [col-start]);
+        overflow-y: scroll;
+    
+        .technicalTraitProfileCard:hover{
+            border: solid $light-primary 0.05rem;
+            animation: CardHover 0.7s;
+            z-index: 10;
+            color: $light-primary;
+            
+            background-color: $light-primary-background;
+            box-shadow: 0rem 0rem 0.5rem $light-primary;
+        }
+        .technicalTraitProfileCard{
+            overflow-y: scroll;
+            padding: 1rem;
+            justify-content: none;
+            .labelValue{
+                height: 10rem;
+                overflow-y: scroll;
+            }
+        }
+        
+        
+        
+        
+    }
+    .bioProfileLayout{
+        display:flex;
+        flex-direction:column;
+        min-width: 0rem;
+       
+        .bioProfileCard:hover{
+            border: solid $light-primary 0.05rem;
+            animation: CardHover 0.7s;
+            z-index: 10;
+            color: $light-primary;
+            background-color: $light-primary-background;
+            box-shadow: 0rem 0rem 0.5rem $light-primary;
+        }
+    }
+    .basicProfileInfoContainer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+        border: 0.01rem $dark-shadow-neg solid;
+        padding:0.3rem;
+    }
+    
+    
+    .bioProfileCard{
+        min-width: 0rem;
+        width: stretch;
+        height: auto;
+       
+    }
+    
+    .basicProfileInfoLayout{
+        display:flex;
+        flex-direction:row;
+        width: stretch;
+        border: solid $dark-primary 0.05rem;
+        box-shadow: 0rem 0rem 0.5rem $dark-primary;
+        justify-content: space-between;
+    }
+    .profileRow{
+        display:flex;
+        flex-direction:column;
+        
+        justify-content: stretch;
+        width:100%;
+    }
+    .labelValueTwo{
+        font-size:0.5rem;
+        letter-spacing:none;
+        color: $light-background;
+        text-transform:uppercase;
+    
+    }
+    .techCard{
+        h4{
+            font-size:0.6rem;
+            width: fit-content;
+        }
+    }
+    .techCategoriesDiv{
+        display: grid;
+        grid-template-rows: repeat(2, max-content [row-start]);
+        grid-template-columns: repeat(2,50% [col-start]);
+        grid-gap: 1rem;
+    }
+    .navBarDiv{
+        width: auto;
+    }
+    .navEntry{
+        padding: 0.5rem;
+    }
+    .navEntryTitle{
+        font-size: 0.6rem;
+
+    }
+  }
 

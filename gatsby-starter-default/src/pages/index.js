@@ -28,7 +28,7 @@ const nav_entries = [
    
   },
   {
-    title: 'Skills and Technologies',
+    title: 'Tech',
     href: 'TechSection'
     
   }
@@ -40,6 +40,7 @@ const IndexPage = () => (
     
     
     <SEO title="Home" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <NavBar nav_entries = {nav_entries}>
 
     </NavBar>
