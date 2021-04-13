@@ -36,7 +36,7 @@ const nav_entries = [
 const IndexPage = () => (
 
 
-  <div>
+  <div className ='divWrapper'>
     
     
     <SEO title="Home" />

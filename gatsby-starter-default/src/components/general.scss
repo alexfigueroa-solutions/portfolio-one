@@ -8,6 +8,7 @@ html{
     line-height:1.3rem;
     text-transform: uppercase;
     background-color: $dark-shadow-neg;
+    box-sizing:border-box;
  
 
 }
@@ -29,6 +30,7 @@ html{
     height: fit-content;
     align-self:center;
     text-align:center;
+    width: 100%;
     .basicProfileInfoContainer:hover{
         border: solid $light-primary 0.05rem;
         animation: CardHover 0.7s;
@@ -225,11 +227,13 @@ html{
 .projectSectionContainer{
     display:flex;
     flex-direction: row;
-    justify-content: center;
     padding: 1rem 0.5rem;
+    margin-right:0rem;
+    right:0rem;
+    
     overflow-x: scroll;
-    width: 100%;
     border: 0.1rem solid $dark-shadow-pos;
+    
     
     .projectCard:hover{
         border: solid $light-primary 0.05rem;
@@ -249,11 +253,13 @@ html{
     border: 0.05rem solid $dark-primary;
     overflow-x: clip;
     padding-bottom:1rem;
-    width: 40rem;
+    width:25%;
+    min-width:25%;
     height: 20rem;
     overflow-y:scroll;
     box-shadow: 0rem 0rem 0.5rem $dark-primary;
     z-index:5;
+    
 }
 .cardButtonDiv{
     display:flex;
@@ -275,7 +281,7 @@ html{
     display:flex;
     flex-flow: column nowrap;
     text-align: center;
-    background-color: $dark-shadow-neg;
+    background-color: $dark-shadow-pos;
     border-bottom: 0.05rem black solid;
     width:100%;
     margin-top:0rem;
@@ -287,7 +293,7 @@ html{
 .cardTitle{
     letter-spacing:0.1rem;
     font-size:1rem;
-    font-weight:100;
+    font-weight:500;
     color: $dark-primary;
     align-self:center;
     text-align:center;
@@ -478,6 +484,7 @@ html{
     display:flex;
     justify-content:center;
     width: 100%;
+    margin:0rem;
     background-color:$dark-shadow-neg;
     border:0.05rem solid $light-primary;
     box-shadow: 0rem 0rem 0.5rem $light-primary;
@@ -491,7 +498,7 @@ html{
     display:flex;
     flex-flow: row nowrap;
     padding: 0.5rem 1rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
    

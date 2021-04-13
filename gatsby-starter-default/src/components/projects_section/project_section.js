@@ -52,7 +52,7 @@ const ProjectArray = [
     },
     
     {
-        title: "Full-Stack Web Development Portfolio",
+        title: "Software Development Portfolio",
         description: "Static GatsbyJS Site",
         features: [
             'Professional Profile',
@@ -79,7 +79,7 @@ const ProjectArray = [
     },
     {
         title: 'AU70MA7A v.0',
-        description: 'Data Modeling and Management Platform',
+        description: 'Graph Data Modeling and Management Platform',
         features: [
             'Project Modeling and Management',
             'Professional Profile Modeling and Management',
