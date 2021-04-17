@@ -6,23 +6,29 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../general.scss";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const social_array = [
     
     {
         title: 'LinkedIn',
-        link: "",
+        link: "https://www.linkedin.com/in/alejandro-figueroa-206596198/",
         logo_cdn: faLinkedin
 
     },
     {
         title: 'Github',
-        link: '',
+        link: 'https://github.com/cybrvybe',
         logo_cdn: faGithub
     },
     {
         title: 'Medium',
         link:"",
         logo_cdn: faMedium
+    },
+    {
+        title: 'Email',
+        link:"mailto: alexfigueroa.cybr@gmail.com",
+        logo_cdn: faEnvelope
     }
 ];
 class SocialCard extends React.Component{
@@ -33,8 +39,10 @@ class SocialCard extends React.Component{
                 {
                     social_array.map(
                         social_profile =>(
-                            <FontAwesomeIcon className = 'socialIcon' href = {social_profile.link} icon = {social_profile.logo_cdn}></FontAwesomeIcon>
-                        )
+                            <a href = {social_profile.link}>
+                                <FontAwesomeIcon className = 'socialIcon' icon = {social_profile.logo_cdn}></FontAwesomeIcon>
+                            </a>
+                                                    )
                     )
                 }
             </div>

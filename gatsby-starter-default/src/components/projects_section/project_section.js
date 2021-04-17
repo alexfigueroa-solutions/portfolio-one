@@ -27,7 +27,7 @@ const ProjectArray = [
             'SCSS',
             'JQuery',
             'Postgres',
-            'D3.json',
+            'D3.js',
             'Stripe Payment Portal',
             'Git',
             'Github',
@@ -44,11 +44,13 @@ const ProjectArray = [
             "Automate CRUD unit testing using Python.",
             "Automate development operations using Python's os module.",
             "Design and develop a clean, responsive front-end UI, using ReactJS, VanillaJS, and other front-end technologies.",
-            "Creat a content management system (CMS) using custom CRUD operations developed in Python.",
-            "Creat and implement a database using Postgres and Django's ORM (Object Relational Mapper).",
+            "Create a content management system (CMS) using custom CRUD operations developed in Python.",
+            "Create and implement a database using Postgres and Django's ORM (Object Relational Mapper).",
             "Implement styling using SCSS.",
             "Deploy to Heroku server."
-        ]
+        ],
+        repo: "https://github.com/cybrvybe/beatcommerce-web-app",
+        url:""
     },
     
     {
@@ -75,7 +77,9 @@ const ProjectArray = [
             'Implement styling using SCSS.',
             'Deploy to Github Pages',
             'Develop front-end React components.'
-        ]
+        ],
+        repo: "https://github.com/cybrvybe/cybrvybe.github.io",
+        url: "cybrvybe.github.io"
     },
     {
         title: 'AU70MA7A v.0',
@@ -98,7 +102,9 @@ const ProjectArray = [
             'Model data using graph databases.',
             'Decompose systems in business, professional, and personal spheres to their component variables.',
             'Develop CRUD operations for custom data models in a graph databases.'
-        ]
+        ],
+        repo: 'https://github.com/cybrvybe/AU70MA7A-v.0',
+        url: ""
     },
     {
         title: 'Neo VSCode Theme',
@@ -113,35 +119,11 @@ const ProjectArray = [
         demonstrated_capabilities: [
             'Manipulate VSCode environment via JSON file editing.',
             'Deploy VSCode theme to VSCode Marketplace.'
-        ]
+        ],
+        repo: "",
+        url: ""
     },
-    {
-        title: 'DJANGAU70 Python Library',
-        description: 'Automation Tools for Django',
-        features: [
-            'Django Project Template',
-            'Django Workflow Automation Tools',
-            'DevOps Automation Tools',
-            'CLI'
-        ],
-        
-        stack: [
-            'Django',
-            'Python',
-            'Heroku',
-            'Selenium',
-            'Git',
-            'Github',
-            'Postgres'
-        ],
-        demonstrated_capabilities: [
-            'Automate DevOps workflows.',
-            'Automate Django workflows.',
-            'Reduce technical debt and overhead for future projects.',
-            'Increase in workload efficiency and productivity for future projects.'
-        ]
     
-    },
     {
         title: 'QvQ: Data Cleaning Tool',
         description: 'Split Datasets into Quantitative and Qualitative parts.',
@@ -157,7 +139,9 @@ const ProjectArray = [
             'Automate data processes with code.',
             'Manipulate data using Pandas and Python.',
             'Handle CSV files.'
-        ]
+        ],
+        repo: "",
+        url: ""
 
     }
     ]
@@ -176,7 +160,9 @@ class ProjectSection extends React.Component {
                                 description = {project.description}
                                 features = {project.features}
                                 stack = {project.stack}
-                                demonstrated_capabilities = {project.demonstrated_capabilities}>
+                                demonstrated_capabilities = {project.demonstrated_capabilities}
+                                github_repo_url = {project.repo}
+                                >
                             </ProjectCard>
                             )
                         ) 

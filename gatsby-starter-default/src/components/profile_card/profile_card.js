@@ -10,6 +10,7 @@ import {
     faSlidersH,
     faBrain } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import TextChanger from "../text_changer/text_changer.js";
 const profile_array = [
     {
         label: 'First Name',
@@ -53,10 +54,15 @@ const technical_traits = [
         description: 'I believe that anybody is capable of learning anything - as long as you take initiative and put in the energy and time.'
     }
 ];
+const specializations_array = [
+    'Web Development',
+    'Data Engineering',
+    'Process Automation'
+]
 const bio_array = [
     {
         label: 'What I Do',
-        value: 'I apply technical and creative software solutions to business problems.'
+        value: 'I apply technical and creative software solutions to business problems. I specialize in: '
     },
     {
         label: 'Who Am I',
@@ -87,6 +93,8 @@ class ProfileCard extends React.Component{
                                             
                                             <h3 className = 'Label'>{profile_obj.label}</h3>
                                             <h2 className = 'labelValue'>{profile_obj.value}</h2>
+                                            
+                                            
                                         </div>
                                     )
                                 )
@@ -106,6 +114,12 @@ class ProfileCard extends React.Component{
                                         <h2 className = 'labelValue'>
                                             {bio.value}
                                         </h2>
+                                        {
+                                                bio.label === 'What I Do' &&(
+                                                        <TextChanger text_array = {specializations_array}></TextChanger>
+                                                    )
+                                               
+                                            }
                                                                             </div>
                                 )
                             )

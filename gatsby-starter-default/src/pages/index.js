@@ -45,24 +45,28 @@ const IndexPage = () => (
 
     </NavBar>
     <Element id = "ProfileSection" name = "ProfileSection">
+      <h1 className = 'divider' id = 'profileDivider'>Profile</h1>
       <ProfileSection >
         
       </ProfileSection>
     </Element>
     
     <Element id = "ProjectSection" name = "ProjectSection">
+      <h1 className = 'divider'>Projects</h1>
       <ProjectSection>
         
       </ProjectSection>
     </Element>
     
     <Element id = "CapabilitySection" name = "CapabilitySection">
+      <h1 className = 'divider'>Capabilities</h1>
       <CapabilitySection>
         
       </CapabilitySection>
     </Element>
 
     <Element id = "TechSection" name = "TechSection">
+      <h1 className = 'divider'>Tech</h1>
       <TechSection>
       
       </TechSection>

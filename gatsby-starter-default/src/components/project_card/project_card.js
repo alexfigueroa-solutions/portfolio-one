@@ -16,7 +16,8 @@ class ProjectCard extends Component {
             features,
             stack,
             demonstrated_capabilities,
-            github_repo_url
+            github_repo_url,
+         
              } = this.props;
 
         return(
@@ -28,8 +29,7 @@ class ProjectCard extends Component {
                         {title}
                     </h1>
                     <div className = "cardButtonDiv">
-                        <btn className = 'githubRepoBtn' href = {github_repo_url}><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon>View Repo</btn>
-                        <btn className = 'viewProjectBtn'>View Project</btn>
+                        <a className = 'githubRepoBtn' href = {github_repo_url}><FontAwesomeIcon icon = {faGithub}></FontAwesomeIcon>View Repo</a>
                     </div>
 
                 </div>
